@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Özel Edremit Körfez Hastanesi 360 Derece Sanal Tur</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes view-control-buttons">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="#" class="scene" data-id="0-ana-giri">
+        <li class="text">Ana Giriş</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="1-giri">
+        <li class="text">Giriş</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="2-danma">
+        <li class="text">Danışma</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="3-bekleme-alan">
+        <li class="text">Bekleme Alanı</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="4-kafeterya">
+        <li class="text">Kafeterya</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="5-acil-girii">
+        <li class="text">Acil Girişi</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="6-rntgen">
+        <li class="text">Röntgen</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="7-ultrasonografi">
+        <li class="text">Ultrasonografi</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="8-mamografi">
+        <li class="text">Mamografi</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="9-floroskopi">
+        <li class="text">Floroskopi</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="10-kemik-densitometresi">
+        <li class="text">Kemik Densitometresi</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="11-bilgisayarl-tomografi-ct">
+        <li class="text">Bilgisayarlı Tomografi (CT)</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="12-manyetin-rezonans-grntleme-mri">
+        <li class="text">Manyetin Rezonans Görüntüleme (MRI)</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="13-bokmya-ve-mkrobyoloj-laboratuvari">
+        <li class="text">BİOKİMYA VE MİKROBİYOLOJİ LABORATUVARI</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="14-bokmya-ve-mkrobyoloj-laboratuvari-2">
+        <li class="text">BİOKİMYA VE MİKROBİYOLOJİ LABORATUVARI 2</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="15-eswl-bbrek-tai-kirma-ntes">
+        <li class="text">ESWL BÖBREK TAŞI KIRMA ÜNİTESİ</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="16-di-poliklinii">
+        <li class="text">Diş Polikliniği</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="17-az-ve-ene-cerrahisi-poliklinii">
+        <li class="text">Ağız ve Çene Cerrahisi Polikliniği</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="18-panaromik-tomografi">
+        <li class="text">Panaromik Tomografi</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="19-poliklinik-koridoru">
+        <li class="text">Poliklinik Koridoru</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="20-poliklinik-koridoru-2">
+        <li class="text">Poliklinik Koridoru 2</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="21-poliklinik-koridoru-3">
+        <li class="text">Poliklinik Koridoru 3</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="22-kardiyoloji-poliklinii">
+        <li class="text">Kardiyoloji Polikliniği</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="23-efor-holter-ekg-odas">
+        <li class="text">Efor-Holter-EKG Odası</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="24-kbb-poliklinii">
+        <li class="text">KBB Polikliniği</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="25-kadn-doum-ve-hastalklar-poliklinii">
+        <li class="text">Kadın Doğum ve Hastalıkları Polikliniği</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="26-kadn-doum-ve-hastalklar-poliklinii-2">
+        <li class="text">Kadın Doğum ve Hastalıkları Polikliniği 2</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="27-gz-poliklinii">
+        <li class="text">Göz Polikliniği</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="28-gz-poliklinii-2">
+        <li class="text">Göz Polikliniği 2</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="29-gz-poliklinii-3">
+        <li class="text">Göz Polikliniği 3</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="30-gz-poliklinii-4">
+        <li class="text">Göz Polikliniği 4</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="31-yatan-hasta-odalar-koridor-grntleri">
+        <li class="text">Yatan hasta odaları, koridor görüntüleri</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="32-doumhane">
+        <li class="text">Doğumhane</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="33-doumhane-sanc-odas">
+        <li class="text">Doğumhane Sancı Odası</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="34-fototerapi-odas">
+        <li class="text">Fototerapi Odası</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="35-yenidoan-youn-bakm-servisi">
+        <li class="text">Yenidoğan Yoğun Bakım Servisi</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="36-yenidoan-youn-bakm-servisi-2">
+        <li class="text">Yenidoğan Yoğun Bakım Servisi 2</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="37-kadn-doum-ve-yenidoan-servisi">
+        <li class="text">Kadın Doğum ve Yenidoğan Servisi</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="38-kadn-doum-ve-yenidoan-servisi-2">
+        <li class="text">Kadın Doğum ve Yenidoğan Servisi 2</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="39-kadn-doum-ve-yenidoan-servisi-suit-oda">
+        <li class="text">Kadın Doğum ve Yenidoğan Servisi Suit Oda</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="40-kadn-doum-ve-yenidoan-servisi-suit-oda-2">
+        <li class="text">Kadın Doğum ve Yenidoğan Servisi Suit Oda 2</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="41-genel-youn-bakm-servisi">
+        <li class="text">Genel Yoğun Bakım Servisi</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="42-genel-youn-bakm-servisi-2">
+        <li class="text">Genel Yoğun Bakım Servisi 2</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="43-fizik-tedavi-ve-rehabilitasyon">
+        <li class="text">Fizik Tedavi ve Rehabilitasyon</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="44-fizik-tedavi-ve-rehabilitasyon-2">
+        <li class="text">Fizik Tedavi ve Rehabilitasyon 2</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="45-fizik-tedavi-ve-rehabilitasyon-3">
+        <li class="text">Fizik Tedavi ve Rehabilitasyon 3</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="46-fizik-tedavi-ve-rehabilitasyon-odas">
+        <li class="text">Fizik Tedavi ve Rehabilitasyon Odası</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="47-anjiografi-sonras-gzlem-servisi">
+        <li class="text">Anjiografi Sonrası Gözlem Servisi</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="48-anjiografi-sonras-gzlem-servisi-2">
+        <li class="text">Anjiografi Sonrası Gözlem Servisi 2</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="49-kardiovaskler-cerrahi-ameliyathanesi">
+        <li class="text">Kardiovasküler Cerrahi Ameliyathanesi</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="50-anjiografi-nitesi">
+        <li class="text">Anjiografi Ünitesi</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="51-koroner-youn-bakm">
+        <li class="text">Koroner Yoğun Bakım</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="52-genel-cerrahi-youn-bakm">
+        <li class="text">Genel Cerrahi Yoğun Bakım</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="53-kardiovaskler-cerrahi-youn-bakm">
+        <li class="text">Kardiovasküler Cerrahi Yoğun Bakım</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="54-eeg-emg-uyku-laboratuvar-odas">
+        <li class="text">EEG, EMG, Uyku Laboratuvarı Odası</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="55-gnbirlik-hasta-tedavi-ve-takip-servisi">
+        <li class="text">Günübirlik Hasta Tedavi ve Takip Servisi</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="56-gnbirlik-hasta-tedavi-ve-takip-servisi-2">
+        <li class="text">Günübirlik Hasta Tedavi ve Takip Servisi 2</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="57-endoskopi-ve-kolonoskopi-nitesi">
+        <li class="text">Endoskopi ve Kolonoskopi Ünitesi</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="infoSection" style="display: none;">
+  <img id="infoSectionCloseButton" src="img/close.png">
+  <div id="infoSectionText">
+    
+  </div>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<!-- LOGO SECTION -->
+<a href="https://www.google.com" target="_blank">
+  <img id="logo-1" src="img/logo1.jpg">
+</a>
+<a href="https://www.google.com" target="_blank">
+  <img id="logo-2" src="img/logo2.jpg">
+</a>
+
+<a href="https://www.google.com" target="_blank" id="rezButton">
+  <img class="icon on" src="img/down.png">
+</a>
+
+<a href="#" id="infoButton">
+  <img class="icon off" src="img/info.png">
+  <img class="icon on" src="img/info.png">
+</a>
+
+<a href="#" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="#" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="#" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="#" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="#" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="#" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="#" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="#" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="#" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/es5-shim.js"></script>
+<script src="vendor/eventShim.js"></script>
+<script src="vendor/classList.js"></script>
+<script src="vendor/requestAnimationFrame.js" ></script>
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
