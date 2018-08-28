@@ -966,4 +966,8 @@ body.fullscreen-enabled.mobile #rezButton {
   bottom: 20px;
   right: 20px;
 }
+
+h1 {
+  text-transform: uppercase;
+}
 /*----------*/
