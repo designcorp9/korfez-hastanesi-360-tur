@@ -329,6 +329,19 @@ body.fullscreen-enabled.mobile #autorotateToggle {
   background-color: rgba(0,107,53,0.8);
 }
 
+.bigtitles {
+  background-color: rgb(5, 57, 77);
+  background-color: rgba(5, 57, 77,0.8);
+  pointer-events:none;
+}
+
+.bigtitles2 {
+  background-color: rgb(5, 57, 77);
+  background-color: rgba(5, 57, 77,0.8);
+  pointer-events:none;
+  text-align: center;
+}
+
 /* Hide scene list when only a single scene exists */
 body.single-scene #sceneList, body.single-scene #sceneListToggle {
   display: none;
