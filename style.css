@@ -104,7 +104,7 @@ body.multiple-scenes.mobile #titleBar {
   height: 40px;
   padding: 5px;
   background-color: rgb(0,107,53);
-  background-color: rgba(0,107,53,0.9);
+  background-color: rgba(0,107,53);
 }
 
 .mobile #fullscreenToggle {
@@ -154,7 +154,7 @@ body.fullscreen-enabled #fullscreenToggle {
   height: 40px;
   padding: 5px;
   background-color: rgb(0,107,53);
-  background-color: rgba(0,107,53,0.9);
+  background-color: rgba(0,107,53);
 }
 
 .mobile #autorotateToggle {
@@ -872,7 +872,7 @@ body.view-control-buttons .viewControlButton {
   height: 40px;
   padding: 5px;
   background-color: rgb(0,107,53);
-  background-color: rgba(0,107,53,0.8);
+  background-color: rgba(0,107,53);
 }
 
 .mobile #infoButton {
@@ -911,7 +911,7 @@ body.fullscreen-enabled.mobile #infoButton {
   height: 40px;
   padding: 5px;
   background-color: rgb(0,107,53);
-  background-color: rgba(0,107,53,0.8);
+  background-color: rgba(0,107,53);
 }
 
 .mobile #rezButton {
