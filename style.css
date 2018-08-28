@@ -22,7 +22,7 @@ html, body {
   padding: 0;
   margin: 0;
   overflow: hidden;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   background-color: #000;
   color: #fff;
@@ -969,5 +969,6 @@ body.fullscreen-enabled.mobile #rezButton {
 
 h1 {
   text-transform: uppercase;
+  font-family: 'Varela Round', sans-serif;
 }
 /*----------*/

@@ -445,7 +445,7 @@ var APP_DATA = {
     },
     {
       "id": "12-manyetin-rezonans-grntleme-mri",
-      "name": "Manyetin Rezonans Görüntüleme (MRI)",
+      "name": "Manyetik Rezonans Görüntüleme (MRI)",
       "levels": [
         {
           "tileSize": 256,
