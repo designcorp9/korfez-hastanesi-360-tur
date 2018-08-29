@@ -240,7 +240,12 @@
       let currentScene = document.getElementsByClassName('scene current');
       let sceneDataId = currentScene[0].getAttribute('data-id');
       let dataIdIndex = sceneArray[sceneDataId];
-      infoSectionText.innerHTML = dataIdIndex;
+      if (dataIdIndex) {
+        infoSectionText.innerHTML = dataIdIndex;
+      }
+      else {
+        infoSectionText.innerHTML = 'ÖZEL EDREMİT KÖRFEZ HASTANESİ';
+      }
 
       infoSection.style.display = 'block';
     }
