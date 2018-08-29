@@ -8,6 +8,7 @@
 <style> @-ms-viewport { width: device-width; } </style>
 <link rel="stylesheet" href="vendor/reset.min.css">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="vendor/perfect-scrollbar.css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -314,7 +315,9 @@
 </div>
 
 <div id="titleBar">
-  <h1 class="sceneName"></h1>
+  <h1 class="sceneName">
+    <span id="sceneNameText"></span>
+  </h1>
 </div>
 
 <a href="https://www.korfezhastanesi.com.tr/tr/online-islemler/randevu-al/" target="_blank" id="rezButton">
@@ -367,9 +370,15 @@
 <script src="vendor/screenfull.min.js" ></script>
 <script src="vendor/bowser.min.js" ></script>
 <script src="vendor/marzipano.js" ></script>
+<script src="vendor/perfect-scrollbar.js" ></script>
 
 <script src="data.js"></script>
 <script src="index.js"></script>
+
+<script>
+  var ps = new PerfectScrollbar('#infoSectionText');
+  var ps = new PerfectScrollbar('#sceneList');
+</script>
 
 </body>
 </html>

@@ -8,7 +8,8 @@
 
   // Grab elements from DOM.
   var panoElement = document.querySelector('#pano');
-  var sceneNameElement = document.querySelector('#titleBar .sceneName');
+  // var sceneNameElement = document.querySelector('#titleBar .sceneName');
+  var sceneNameTextElement = document.querySelector('#titleBar .sceneName #sceneNameText');
   var sceneListElement = document.querySelector('#sceneList');
   var sceneElements = document.querySelectorAll('#sceneList .scene');
   var sceneListToggleElement = document.querySelector('#sceneListToggle');
@@ -186,7 +187,7 @@
   }
 
   function updateSceneName(scene) {
-    sceneNameElement.innerHTML = sanitize(scene.data.name);
+    sceneNameTextElement.innerHTML = sanitize(scene.data.name);
   }
 
   function updateSceneList(scene) {
