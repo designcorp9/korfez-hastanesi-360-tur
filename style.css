@@ -287,10 +287,6 @@ body.fullscreen-enabled.mobile #autorotateToggle {
   margin-left: 100%;
 }
 
-.mobile #sceneList .scenes {
-  height: 100%;
-}
-
 #sceneList.enabled {
   margin-left: 420px;
 }
@@ -848,16 +844,21 @@ body.view-control-buttons .viewControlButton {
   position:absolute;
   left:50%;
   top:50%;
-  width:300px;
-  height:200px;
+  width:500px;
+  height:400px;
   /* opacity: 0.5; */
   background: rgba(255, 255, 255, 0.5);
-
-  margin-left:-150px; /* -1/2 width */
-  margin-top:-100px; /* -1/2 height */
+  margin-left:-250px; /* -1/2 width */
+  margin-top:-200px; /* -1/2 height */
   text-align: center;
   vertical-align: middle;
   line-height: 200px;
+  overflow: hidden;
+  padding: 10px;
+  /* padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px; */
 }
 
 #infoSectionCloseButton {
@@ -874,6 +875,10 @@ body.view-control-buttons .viewControlButton {
 #infoSectionText {
   color: black;
   font-weight: bold;
+  line-height: 1.5;
+  overflow-y: auto;
+  width:480px;
+  height:380px;
 }
 
 #infoButton {
@@ -928,7 +933,7 @@ body.fullscreen-enabled.mobile #infoButton {
 }
 
 .mobile #rezButton {
-  width: 50px;
+  width: 75px;
   height: 50px;
 }
 
@@ -952,6 +957,12 @@ body.fullscreen-enabled.mobile #rezButton {
 .mobile #rezButton .icon {
   top: 10px;
   right: 10px;
+}
+
+.mobile h1 {
+  text-transform: uppercase;
+  font-family: 'Varela Round', sans-serif;
+  text-align: left;
 }
 
 /* LOGO SECTION */

@@ -216,7 +216,20 @@
   }
 
   let sceneArray = {
-    '0-ana-giri': 'Description 1',
+    '0-ana-giri': 'ÖZEL EDREMİT KÖRFEZ HASTANESİ HAKKINDA<br><br>' +
+    '&emsp;Kuzey Ege Bölgesinde sağlık alanında tüm branşlarda (dahili ve cerrahi ) ' +
+    'hissedilen eksiklikler nedeniyle planlanıp bölgenin gereksinimlerine uygun olarak 2010 ' +
+    'yılında hizmet vermeye başlayan A sınıfı bir hastane olarak çevre il ve ilçelerde başta ' +
+    'olmak üzere Balıkesir Edremit Körfez Bölgesinin en modern ve en kapsamlı sağlık kuruluşlarından biridir.<br><br>' +
+    '&emsp;Yaklaşık 11 bin metrekare kapalı alana kurulu olan hastanemiz; 28’i yoğun bakım olmak üzere toplam 93 hasta yatağı, ' +
+    'tam teşekküllü genel yoğun bakım, kardiyovasküler cerrahi yoğun bakım, koroner yoğun bakım, cerrahi yoğun bakım ve ' +
+    'yenidoğan yoğun bakım servisleri ve modern ameliyathaneleri, doğumhaneleri, fizik tedavi ve rehabilitasyon servisi, ' +
+    'diş ağız ve çene cerrahisi ünitesi, modern radyoloji görüntüleme merkezi, tıbbi biyokimya ve mikrobiyoloji laboratuvarları' +
+    'ile hemen hemen tüm branşlarda SGK, anlaşmalı özel sigorta ve kurumlarla poliklinik, yatarak teşhis ve tedavi hizmeti sunmaktadır.<br><br>' +
+    '&emsp;Hastanemizde tüm hasta ve misafirlerimizin kullanabileceği ücretsiz otoparklarımız hizmet vermektedir.<br><br>' +
+    '&emsp;Otoparkımızda birçok bankaya ait bankamatik bulunmaktadır.<br><br>' +
+    '&emsp;Hastanemiz Çanakkale-İzmir Karayoluüzerinde, Edremit’e 3.Km mesafededir.'
+    ,
     '1-giri': 'Description 2'
   };
 
