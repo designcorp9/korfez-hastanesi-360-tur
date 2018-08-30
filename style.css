@@ -58,11 +58,11 @@ a, a:hover, a:active, a:visited {
 
 /* If there is a fullscreen button the title bar must make space for it */
 body.fullscreen-enabled #titleBar {
-  right: 80px;
+  right: 120px;
 }
 
 body.fullscreen-enabled.mobile #titleBar {
-  right: 100px;
+  right: 125px;
 }
 
 /* If there are multiple scenes the title bar must make space for the scene list toggle */
@@ -963,7 +963,7 @@ body.view-control-buttons .viewControlButton {
 
 /* If there is a fullscreen button, autorotate must placed a bit to the left */
 body.fullscreen-enabled #infoButton {
-  right: 80px;
+  right: 0px;
 }
 
 body.fullscreen-enabled.mobile #infoButton {
@@ -1003,7 +1003,7 @@ body.fullscreen-enabled.mobile #infoButton {
 
 /* If there is a fullscreen button, autorotate must placed a bit to the left */
 body.fullscreen-enabled #rezButton {
-  right: 120px;
+  right: 40px;
 }
 
 body.fullscreen-enabled.mobile #rezButton {
