@@ -13,8 +13,8 @@
   var sceneListElement = document.querySelector('#sceneList');
   var sceneElements = document.querySelectorAll('#sceneList .scene');
   var sceneListToggleElement = document.querySelector('#sceneListToggle');
-  var autorotateToggleElement = document.querySelector('#autorotateToggle');
-  var fullscreenToggleElement = document.querySelector('#fullscreenToggle');
+  // var autorotateToggleElement = document.querySelector('#autorotateToggle');
+  // var fullscreenToggleElement = document.querySelector('#fullscreenToggle');
 
   var infoSection = document.querySelector('#infoSection');
   var infoButtonElement = document.querySelector('#infoButton');
@@ -32,7 +32,7 @@
         document.body.classList.add('desktop');
       }
     };
-    var mql = matchMedia("(max-width: 1081px), (max-height: 500px)");
+    var mql = matchMedia("(max-width: 500px), (max-height: 500px)");
     setMode();
     mql.addListener(setMode);
   } else {
@@ -104,26 +104,26 @@
     targetPitch: 0,
     targetFov: Math.PI/2
   });
-  if (data.settings.autorotateEnabled) {
-    autorotateToggleElement.classList.add('enabled');
-  }
+  // if (data.settings.autorotateEnabled) {
+  //   autorotateToggleElement.classList.add('enabled');
+  // }
 
   // Set handler for autorotate toggle.
-  autorotateToggleElement.addEventListener('click', toggleAutorotate);
+  // autorotateToggleElement.addEventListener('click', toggleAutorotate);
 
   // Set up fullscreen mode, if supported.
   if (screenfull.enabled && data.settings.fullscreenButton) {
     document.body.classList.add('fullscreen-enabled');
-    fullscreenToggleElement.addEventListener('click', function() {
-      screenfull.toggle();
-    });
-    screenfull.on('change', function() {
-      if (screenfull.isFullscreen) {
-        fullscreenToggleElement.classList.add('enabled');
-      } else {
-        fullscreenToggleElement.classList.remove('enabled');
-      }
-    });
+    // fullscreenToggleElement.addEventListener('click', function() {
+    //   screenfull.toggle();
+    // });
+    // screenfull.on('change', function() {
+    //   if (screenfull.isFullscreen) {
+    //     fullscreenToggleElement.classList.add('enabled');
+    //   } else {
+    //     fullscreenToggleElement.classList.remove('enabled');
+    //   }
+    // });
   } else {
     document.body.classList.add('fullscreen-disabled');
   }
@@ -426,9 +426,9 @@
   }
 
   function startAutorotate() {
-    if (!autorotateToggleElement.classList.contains('enabled')) {
-      return;
-    }
+    // if (!autorotateToggleElement.classList.contains('enabled')) {
+    //   return;
+    // }
     viewer.startMovement(autorotate);
     viewer.setIdleMovement(3000, autorotate);
   }
@@ -438,15 +438,15 @@
     viewer.setIdleMovement(Infinity);
   }
 
-  function toggleAutorotate() {
-    if (autorotateToggleElement.classList.contains('enabled')) {
-      autorotateToggleElement.classList.remove('enabled');
-      stopAutorotate();
-    } else {
-      autorotateToggleElement.classList.add('enabled');
-      startAutorotate();
-    }
-  }
+  // function toggleAutorotate() {
+  //   if (autorotateToggleElement.classList.contains('enabled')) {
+  //     autorotateToggleElement.classList.remove('enabled');
+  //     stopAutorotate();
+  //   } else {
+  //     autorotateToggleElement.classList.add('enabled');
+  //     startAutorotate();
+  //   }
+  // }
 
   function createLinkHotspotElement(hotspot) {
 

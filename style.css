@@ -46,14 +46,14 @@ a, a:hover, a:active, a:visited {
   position: absolute;
   top: 0;
   left: 0;
-  right: 40px;
+  right: 120px;
   height: 40px;
   text-align: center;
 }
 
 .mobile #titleBar {
   height: 50px;
-  right: 50px;
+  right: 125px;
 }
 
 /* If there is a fullscreen button the title bar must make space for it */
@@ -72,7 +72,6 @@ body.multiple-scenes #titleBar {
 
 body.multiple-scenes.mobile #titleBar {
   left: 50px;
-  padding-right: 125px;
 }
 
 #titleBar .sceneName {
@@ -968,8 +967,7 @@ body.fullscreen-enabled #infoButton {
 }
 
 body.fullscreen-enabled.mobile #infoButton {
-  right: 150px;
-  /* margin-right: 50px; */
+  right: 0px;
 }
 
 #infoButton .icon {
@@ -989,7 +987,7 @@ body.fullscreen-enabled.mobile #infoButton {
   display: block;
   position: absolute;
   top: 0;
-  right: 0;
+  right: 40px;
   width: 80px;
   height: 40px;
   padding: 5px;
@@ -1000,6 +998,7 @@ body.fullscreen-enabled.mobile #infoButton {
 .mobile #rezButton {
   width: 75px;
   height: 50px;
+  right: 50px;
 }
 
 /* If there is a fullscreen button, autorotate must placed a bit to the left */
@@ -1008,8 +1007,7 @@ body.fullscreen-enabled #rezButton {
 }
 
 body.fullscreen-enabled.mobile #rezButton {
-  right: 200px;
-  /* margin-right: 50px; */
+  right: 50px;
 }
 
 #rezButton .icon {
