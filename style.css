@@ -1035,10 +1035,26 @@ body.fullscreen-enabled.mobile #rezButton {
   right: 80px;
 }
 
+.mobile #logo-1 {
+  position: fixed;
+  bottom: 20px;
+  right: 50px;
+  width: 60px;
+  height: 40px;
+}
+
 #logo-2 {
   position: fixed;
   bottom: 20px;
   right: 20px;
+}
+
+.mobile #logo-2 {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 20px;
+  height: 40px;
 }
 
 h1 {
