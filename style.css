@@ -968,7 +968,8 @@ body.fullscreen-enabled #infoButton {
 }
 
 body.fullscreen-enabled.mobile #infoButton {
-  right: 100px;
+  right: 150px;
+  /* margin-right: 50px; */
 }
 
 #infoButton .icon {
@@ -1007,7 +1008,8 @@ body.fullscreen-enabled #rezButton {
 }
 
 body.fullscreen-enabled.mobile #rezButton {
-  right: 150px;
+  right: 200px;
+  /* margin-right: 50px; */
 }
 
 #rezButton .icon {
