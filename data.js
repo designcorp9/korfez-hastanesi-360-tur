@@ -24,14 +24,14 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "yaw": -2.9392114601783774,
-        "pitch": -0.46335794761062665,
-        "fov": 1.3795342925798226
+        "yaw": -2.9526673558368994,
+        "pitch": -0.31059080416231666,
+        "fov": 1.3729094996294073
       },
       "linkHotspots": [
         {
-          "yaw": -3.1375779386531324,
-          "pitch": 0.015547528161555135,
+          "yaw": 3.123669771563983,
+          "pitch": 0.11052341522751874,
           "rotation": 0,
           "target": "1-giri"
         }
@@ -62,27 +62,27 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "yaw": 3.105254031292601,
-        "pitch": -0.11989144706673294,
-        "fov": 1.3795342925798226
+        "yaw": -1.0055965555201194,
+        "pitch": 0.14231598863392136,
+        "fov": 1.3729094996294073
       },
       "linkHotspots": [
         {
-          "yaw": 3.085752871020869,
-          "pitch": 0.140500377329289,
+          "yaw": -1.3238056740313162,
+          "pitch": 0.17330139743510387,
           "rotation": 0,
           "target": "2-danma"
         },
         {
-          "yaw": -2.1832105478191366,
-          "pitch": 0.11717008582380473,
-          "rotation": 0,
+          "yaw": 0.10632825756364284,
+          "pitch": 0.07375216824959097,
+          "rotation": 0.7853981633974483,
           "target": "0-ana-giri"
         },
         {
-          "yaw": 2.0282132307874186,
-          "pitch": 0.13643622624032403,
-          "rotation": 0,
+          "yaw": -2.407419545843993,
+          "pitch": 0.16475141139180138,
+          "rotation": 5.497787143782138,
           "target": "0-ana-giri"
         }
       ],
@@ -112,27 +112,27 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "yaw": 0.16513499845793156,
-        "pitch": 0.05013112503318773,
-        "fov": 1.3795342925798226
+        "yaw": -2.520002327595943,
+        "pitch": 0.011625157809444175,
+        "fov": 1.3729094996294073
       },
       "linkHotspots": [
         {
-          "yaw": -0.8843688316470963,
-          "pitch": 0.1653934872476981,
+          "yaw": 2.6392850963924754,
+          "pitch": 0.09651627201779611,
           "rotation": 0.7853981633974483,
           "target": "3-bekleme-alan"
         },
         {
-          "yaw": -1.1991143661676613,
-          "pitch": 0.11835467932984756,
+          "yaw": 2.2325724005495804,
+          "pitch": 0.0970767840277258,
           "rotation": 0,
           "target": "4-kafeterya"
         },
         {
-          "yaw": -2.7439991931115184,
-          "pitch": 0.027695948015463046,
-          "rotation": 0,
+          "yaw": 0.9800551253439238,
+          "pitch": 0.10531447733412946,
+          "rotation": 5.497787143782138,
           "target": "1-giri"
         }
       ],
@@ -162,21 +162,21 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "yaw": -3.024847956778901,
-        "pitch": -0.052863236496556,
-        "fov": 1.3795342925798226
+        "yaw": -0.8607537983036124,
+        "pitch": -0.02232373170129165,
+        "fov": 1.3729094996294073
       },
       "linkHotspots": [
         {
-          "yaw": 0.7131135070646373,
-          "pitch": 0.16286913374427137,
-          "rotation": 0.7853981633974483,
+          "yaw": -0.4588812806033786,
+          "pitch": 0.11948142177599408,
+          "rotation": 7.0685834705770345,
           "target": "4-kafeterya"
         },
         {
-          "yaw": -0.45779146222390743,
-          "pitch": 0.18539756354539172,
-          "rotation": 4.71238898038469,
+          "yaw": -1.0634868100034751,
+          "pitch": 0.19019250062766524,
+          "rotation": 5.497787143782138,
           "target": "2-danma"
         }
       ],
@@ -206,21 +206,21 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 1.289167915986555,
+        "pitch": -0.0741810388618731,
+        "fov": 1.3729094996294073
       },
       "linkHotspots": [
         {
-          "yaw": 0.911782149667836,
-          "pitch": 0.08327488402783523,
-          "rotation": 4.71238898038469,
+          "yaw": 1.8845097550774188,
+          "pitch": 0.11269597221703265,
+          "rotation": 5.497787143782138,
           "target": "3-bekleme-alan"
         },
         {
-          "yaw": 1.358137476891299,
-          "pitch": 0.09780295804564432,
-          "rotation": 0,
+          "yaw": 2.194850485417403,
+          "pitch": 0.10381287259335359,
+          "rotation": 0.7853981633974483,
           "target": "2-danma"
         }
       ],
@@ -467,9 +467,9 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 0.07097797003003414,
+        "pitch": 0.10408112199204034,
+        "fov": 1.3729094996294073
       },
       "linkHotspots": [],
       "infoHotspots": []
@@ -574,9 +574,9 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "yaw": -3.107078862800023,
-        "pitch": -0.03979811864575389,
-        "fov": 1.3795342925798226
+        "yaw": -3.058083450882439,
+        "pitch": 0.1217249517148371,
+        "fov": 1.3729094996294073
       },
       "linkHotspots": [],
       "infoHotspots": []
@@ -913,9 +913,9 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": -3.05290232827293,
+        "pitch": -0.04802650541016895,
+        "fov": 1.3729094996294073
       },
       "linkHotspots": [],
       "infoHotspots": []
@@ -1194,7 +1194,20 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": -0.972021952594492,
+          "pitch": 0.038377263473831746,
+          "rotation": 5.497787143782138,
+          "target": "12-tek-yatak"
+        },
+        {
+          "yaw": 0.5116377594855912,
+          "pitch": 0.03392335736287144,
+          "rotation": 0.7853981633974483,
+          "target": "13--yatak"
+        }
+      ],
       "infoHotspots": []
     },
     {
@@ -1472,19 +1485,19 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "yaw": 1.4853056470464097,
-        "pitch": 0.0000014808500736762653,
-        "fov": 1.3795342925798226
+        "yaw": 2.536085454872943,
+        "pitch": -0.007762467330422851,
+        "fov": 1.3729094996294073
       },
       "linkHotspots": [
         {
-          "yaw": 0.21961304030712725,
-          "pitch": 0.21305336025784172,
+          "yaw": 1.6262378574454104,
+          "pitch": 0.06892616306570432,
           "rotation": 5.497787143782138,
           "target": "40-kadn-doum-ve-yenidoan-servisi-suit-oda-2"
         },
         {
-          "yaw": -2.133567678283949,
+          "yaw": 0.000000000000000,
           "pitch": 0.15406255737731733,
           "rotation": 0.7853981633974483,
           "target": "38-kadn-doum-ve-yenidoan-servisi-2"
@@ -1516,14 +1529,20 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": -0.8030816145017159,
+        "pitch": 0.08777208894401056,
+        "fov": 1.3729094996294073
       },
       "linkHotspots": [
         {
-          "yaw": -0.0488139222978603,
-          "pitch": 0.23929787841580286,
+          "yaw": -1.117611886846861,
+          "pitch": 0.07926039692641673,
+          "rotation": 0,
+          "target": "16-suit3"
+        },
+        {
+          "yaw": -1.7162769868497048,
+          "pitch": 0.05237072921590169,
           "rotation": 0.7853981633974483,
           "target": "39-kadn-doum-ve-yenidoan-servisi-suit-oda"
         }
@@ -1876,9 +1895,9 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "yaw": -1.986705811140908,
-        "pitch": 0.06359378203757693,
-        "fov": 1.3795342925798226
+        "yaw": 2.8410107527120463,
+        "pitch": 0.016190005005785935,
+        "fov": 1.3729094996294073
       },
       "linkHotspots": [],
       "infoHotspots": []
@@ -2143,6 +2162,151 @@ var APP_DATA = {
         "fov": 1.5707963267948966
       },
       "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "12-tek-yatak",
+      "name": "Tek Yataklı Hasta Odası",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1344,
+      "initialViewParameters": {
+        "yaw": 2.3976488168031125,
+        "pitch": -0.013361384346053384,
+        "fov": 1.3729094996294073
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.505553362320854,
+          "pitch": -0.07418894415826038,
+          "rotation": 0.7853981633974483,
+          "target": "31-yatan-hasta-odalar-koridor-grntleri"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "13--yatak",
+      "name": "Üç Yataklı Hasta Odası",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1344,
+      "initialViewParameters": {
+        "yaw": 3.1138708513023428,
+        "pitch": -0.022492850880844628,
+        "fov": 1.3729094996294073
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.4569204337222974,
+          "pitch": 0.07711006819770816,
+          "rotation": 0,
+          "target": "31-yatan-hasta-odalar-koridor-grntleri"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "9-kat-tuvaleti",
+      "name": "Kat Tuvaleti",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1344,
+      "initialViewParameters": {
+        "yaw": -2.982530468690898,
+        "pitch": 0.08649484204359581,
+        "fov": 1.3729094996294073
+      },
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "16-suit3",
+      "name": "Suit Tuvaleti",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1344,
+      "initialViewParameters": {
+        "yaw": -3.1073104463545373,
+        "pitch": 0.05730050311585266,
+        "fov": 1.3729094996294073
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.315568533154962,
+          "pitch": 0.2334085074321699,
+          "rotation": 0,
+          "target": "40-kadn-doum-ve-yenidoan-servisi-suit-oda-2"
+        }
+      ],
       "infoHotspots": []
     }
   ],
